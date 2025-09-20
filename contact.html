@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato - AutoSolution Services</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="main.js" defer></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato - AutoSolution Services</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>AutoSolution Services</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">Sobre</a>
-      <a href="service.html">Serviços</a>
-      <a href="portifolio.html">Portfólio</a>
-      <a href="contact.html">Contato</a>
-    </nav>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/isaac-feitosa-rodrigues-2586282ab/" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="40">
-      </a>
-      <a href="https://www.instagram.com/isaactattooaju/" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="40">
-      </a>
-    </div>
-  </header>
+<header>
+<div class="logo"><h1>AutoSolution Services</h1></div>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">Sobre</a>
+<a href="service.html">Serviços</a>
+<a href="portifolio.html">Portfólio</a>
+<a href="contact.html">Contato</a>
+</nav>
+<div class="social-links">
+  <a href="https://www.linkedin.com/in/isaac-feitosa-rodrigues-2586282ab/" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="40">
+  </a>
+  <a href="https://www.instagram.com/isaactattooaju/" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="40">
+  </a>
+</div>
+</header>
 
-  <main>
-    <section id="contact">
-      <h2>Contato</h2>
-      <p>Entre em contato conosco via email ou redes sociais:</p>
-      <ul>
-        <li>Email: contato@autosolution.com</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/isaac-feitosa-rodrigues-2586282ab/" target="_blank">Isaac Feitosa Rodrigues</a></li>
-        <li>Instagram: <a href="https://www.instagram.com/isaactattooaju/" target="_blank">@isaactattooaju</a></li>
-      </ul>
-      <p>Também aceitamos mensagens pelo WhatsApp integrado em nosso site principal.</p>
-    </section>
-  </main>
+<main>
+<h2>Contato</h2>
+<p>Entre em contato conosco através do formulário abaixo ou por nossas redes sociais.</p>
+<form>
+  <label for="name">Nome:</label>
+  <input type="text" id="name" name="name" required>
 
-  <footer>
-    <p>&copy; 2025 AutoSolution Services</p>
-  </footer>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Mensagem:</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
+</main>
+
+<footer>
+<p>&copy; 2025 AutoSolution Services</p>
+</footer>
 </body>
 </html>
